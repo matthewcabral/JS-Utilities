@@ -5,7 +5,7 @@
     BS Inputs/Outputs:
 	Argument Name           |   Argument Type   |   Data Type   |   Comments
     ----------------------------------------------------------------
-    CmdLine                 |   Input           |   String
+    CmdLine                 |   Input           |   String      |   "sqlplus -s " + [&SQL_USER] + "/" + [&SQL_PASSWORD] + "@" + [&TABLE_OWNER] + " " + "@" + [&PGM_PATH] + [&PROC_NAME] + " " + [&Process Instance Id] + " " + [&IN_PATH] + " " + [&LOG_PATH] + " " + [&LOG_EXC_PATH] + " " + [&LOG_PATH] + " " + [&FILE_NAME]
     Process Instance Id     |   Input           |   String
     Result                  |   Output          |   
     
